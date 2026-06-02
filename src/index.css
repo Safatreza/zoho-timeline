@@ -1,0 +1,23 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --navy:   #1F3864;
+  --slate:  #334155;
+  --muted:  #64748b;
+  --border: #E2E8F0;
+  --bg:     #F8FAFC;
+  --white:  #ffffff;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+html, body, #root {
+  height: 100%;
+  background: var(--bg);
+  color: var(--slate);
+  -webkit-font-smoothing: antialiased;
+}
+
+::-webkit-scrollbar          { height: 5px; width: 5px; }
+::-webkit-scrollbar-track    { background: #EFF2F7; }
+::-webkit-scrollbar-thumb    { background: #94a3b8; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #64748b; }

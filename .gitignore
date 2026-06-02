@@ -1,0 +1,13 @@
+node_modules
+dist
+.DS_Store
+*.local
+*.xlsx
+*.bat
+update_log.txt
+plan_dump.txt
+build_plan*.py
+update_col_a*.py
+run_update.bat
+plan_data.py
+export_json.py
